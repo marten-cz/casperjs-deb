@@ -1,0 +1,16 @@
+Source: casperjs
+Section: web
+Priority: extra
+Maintainer: Martin Malek <github@marten-online.com>
+Build-Depends: debhelper (>= 7), python, autotools-dev, pkg-config, binutils, libqtwebkit-dev
+Standards-Version: 3.8.4
+Homepage: http://casperjs.org/
+
+Package: casperjs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, phantomjs (>= 1.5.0)
+Description: casperjs - CasperJS is an open source navigation
+ scripting & testing utility written in Javascript and based on
+ PhantomJS — the scriptable headless WebKit engine. It eases the
+ process of defining a full navigation scenario and provides useful
+ high-level functions, methods & syntactic sugar for doing common tasks
